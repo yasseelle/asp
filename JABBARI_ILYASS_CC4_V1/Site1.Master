@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="JABBARI_ILYASS_CC4_V1.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            height: 90px;
+        }
+        .auto-style3 {
+            height: 360px;
+        }
+        .auto-style4 {
+            height: 117px;
+            text-align: center;
+        }
+        .auto-style5 {
+            height: 90px;
+            width: 776px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style5">
+                    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="inscription" />
+                &nbsp;<asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="login" />
+&nbsp;<asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="partager un document" />
+                &nbsp;<asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="lister ou modifier vous document" />
+                    <asp:Button ID="Button5" runat="server" OnClick="Button5_Click" Text="affiche_document_par_date.aspx" />
+                    <asp:Button ID="Button6" runat="server" OnClick="Button6_Click" Text="afficher les compts des mombres" />
+                </td>
+                <td class="auto-style2">
+                    <asp:LoginName ID="LoginName1" runat="server" />
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style3" colspan="2">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style4" colspan="2">Tel, Adresse, Faxe, Identifiant fisca</td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

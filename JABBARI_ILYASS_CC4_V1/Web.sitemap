@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/inscription.aspx" title="inscription"  description="">
+        <siteMapNode url="~/partager_documet.aspx" title="patager document"  description="" />
+        <siteMapNode url="~/login.aspx" title="login"  description="" />
+      <siteMapNode url="~/Modifier_lister_document.aspx" title="lister ou modifier vous document"  description="" />
+    </siteMapNode>
+</siteMap>
